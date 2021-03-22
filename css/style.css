@@ -56,7 +56,15 @@
     width: 250px;
     height: 30px;
     margin: 10px auto -2px;
+    border: 1px solid #ccc;
     align-items: center;
+}
+
+#box-cadastrar input[type='submit']{
+    background-color:  #008ad3;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
 }
 
 .divisao{
@@ -79,4 +87,80 @@
     margin-left: -25px;
     font-size: 14px;
     font-weight: bold;
+}
+
+#entrar-facebook a{
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #385185;
+}
+
+#esqueceu-senha{
+    margin-top: 10px;
+}
+
+#esqueceu-senha a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #00376b;
+}
+
+#cadastrar{
+    margin-top: 7px;
+    border: 2px solid #CCC;
+    width: 300px;
+    padding: 15px;
+}
+
+#cadastrar p{
+    font-size: 14px;
+}
+
+#cadastrar a{
+    text-decoration: none;
+    color: #008ad3;
+}
+
+#obter-app{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#obter-img{
+    margin-top: 10px;
+    display: flex;
+}
+
+#obter-img img{
+    flex: 1 1 0;
+    width: 50%;
+    cursor: pointer;
+}
+
+#menu-footer{
+    margin: 30px auto;
+    width: 1000px;
+}
+
+#menu-footer li{
+    list-style: none;
+}
+
+#menu-footer ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+#menu-footer ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#copyright{
+    margin-top: 5px;
+    font-size: 12px;
 }
